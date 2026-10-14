@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3ec">
+  <meta name="description" content="Timeless Piece — perennial style, refined and intentional pieces.">
+  <title>Timeless Piece — Perennial Style</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">TIMELESS BY DESIGN. REMARKABLE BY NATURE.</div>
+  <header class="site-header">
+    <a class="brand-lockup" href="#home" aria-label="Timeless Piece home">
+      <img src="assets/tp-logo.png" alt="Timeless Piece TP logo">
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#shop">Shop</a><a href="#about">About</a>
+      <button class="cart-link" id="openCart">Bag <span id="cartCount">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">TIMELESS PIECE · FIRST COLLECTION</p>
+        <h1>Style that speaks<br><em>without saying too much.</em></h1>
+        <p>Refined essentials for a presence that feels effortless.</p>
+        <a class="button button-dark" href="#shop">Explore the collection <span>↗</span></a>
+      </div>
+      <div class="hero-mark">TP</div>
+    </section>
+
+    <section class="film-section" aria-labelledby="filmTitle">
+      <div class="section-heading">
+        <p class="eyebrow">THE BRAND IN MOTION</p>
+        <h2 id="filmTitle">A closer look at our world.</h2>
+      </div>
+      <video class="brand-film" controls playsinline preload="metadata" poster="assets/white-tee-front-back.jpeg">
+        <source src="assets/timeless-piece-trailer.mp4" type="video/mp4">
+        Your browser does not support video playback.
+      </video>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-label"><span>01</span><p>THE PHILOSOPHY</p></div>
+      <div class="about-content">
+        <p class="eyebrow">ABOUT TIMELESS PIECE</p>
+        <h2>Perennial style.<br><em>Quiet confidence.</em></h2>
+        <p>Timeless Piece is an art of fashion, rooted in perennial style, built for those with desires to look remarkable without putting excessive effort into getting dressed. Rooted in the philosophy of quiet luxury, we create refined, intentional pieces that allow style to feel effortless rather than forced. Because true style is not always about demanding attention — it is about the way you carry yourself, the way a piece fits, and the presence it creates.</p>
+        <p class="signature">TIMELESS BY DESIGN.<br>REMARKABLE BY NATURE.</p>
+      </div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="shop-heading">
+        <div><p class="eyebrow">THE FIRST EDIT</p><h2>Shop the collection</h2></div>
+        <p>Considered essentials.<br>Made to be worn your way.</p>
+      </div>
+      <div class="category-row"><span class="active">All pieces</span><span>T-shirts</span><span>Coming soon: Polos</span></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="closing-note">
+      <p class="eyebrow">TIMELESS PIECE</p>
+      <h2>Less, but considered.</h2>
+      <a href="#shop" class="text-link">Discover the first edit <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">TIMELESS PIECE</div>
+    <p>Perennial style. Refined by design.</p>
+    <div class="footer-links"><a href="#about">About</a><a href="#shop">Shop</a><a href="mailto:hello@timelesspiece.com">Contact</a></div>
+    <small>© <span id="year"></span> Timeless Piece. All rights reserved.</small>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-head"><h2>Your bag</h2><button id="closeCart" aria-label="Close bag">×</button></div>
+    <div id="cartItems" class="cart-items"><p class="empty-state">Your bag is currently empty.</p></div>
+    <div class="drawer-bottom">
+      <div class="subtotal"><span>Subtotal</span><strong id="subtotal">₦0</strong></div>
+      <p class="small-note">Delivery fees are confirmed at checkout.</p>
+      <button class="button button-dark full-width" id="checkoutButton">Continue to checkout</button>
+      <p class="small-note" id="checkoutNote">Checkout and live payment will be enabled after secure payment setup.</p>
+    </div>
+  </aside>
+
+  <dialog id="productDialog" class="product-dialog">
+    <button class="dialog-close" id="closeProduct" aria-label="Close product">×</button>
+    <div class="dialog-grid">
+      <div class="dialog-images" id="dialogImages"></div>
+      <div class="dialog-details">
+        <p class="eyebrow">TIMELESS PIECE · T-SHIRT</p>
+        <h2 id="dialogName"></h2><p class="dialog-price" id="dialogPrice"></p>
+        <p class="dialog-description">A considered everyday essential with understated TP detailing. Designed to bring quiet confidence to your everyday wardrobe.</p>
+        <label for="sizeSelect">Select size</label>
+        <div class="size-options" id="sizeOptions"></div>
+        <label for="quantitySelect">Quantity</label>
+        <select id="quantitySelect"><option>1</option><option>2</option><option>3</option></select>
+        <button class="button button-dark full-width" id="addToBag">Add to bag</button>
+        <p class="small-note">Model-worn images can be added to this product gallery when available.</p>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="checkoutDialog" class="checkout-dialog">
+    <button class="dialog-close" id="closeCheckout" aria-label="Close checkout">×</button>
+    <p class="eyebrow">ORDER DETAILS</p><h2>Almost yours.</h2>
+    <p class="small-note">This prototype collects no information and does not process orders yet. The form below shows the intended checkout experience.</p>
+    <form id="checkoutForm">
+      <label>Full name<input name="name" autocomplete="name" required></label>
+      <label>Phone number<input name="phone" autocomplete="tel" required></label>
+      <label>Email address<input type="email" name="email" autocomplete="email" required></label>
+      <label>Delivery address<textarea name="address" autocomplete="street-address" required rows="3"></textarea></label>
+      <div class="subtotal"><span>Order subtotal</span><strong id="checkoutSubtotal">₦0</strong></div>
+      <button class="button button-dark full-width" type="submit">Payment setup pending</button>
+    </form>
+    <p class="form-message" id="formMessage"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
