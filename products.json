@@ -30,21 +30,6 @@
     "description": "A considered black essential with understated contrast detailing."
   },
   {
-    "id": "product-002",
-    "name": "Black Timeless Piece Sleeveless",
-    "color": "",
-    "price": 25000,
-    "sizes": [
-      "L",
-      "XL",
-      "XXL",
-      "XXXL"
-    ],
-    "category": "Men's Sleeveless",
-    "image": "assets/black-timeless-piece-sleeveless.jpeg",
-    "description": "A considered Timeless Piece design, created for effortless everyday style."
-  },
-  {
     "id": "product-001",
     "name": "Hour Glass Sleeveless",
     "color": "",
@@ -57,6 +42,21 @@
     ],
     "category": "Men's Sleeveless",
     "image": "assets/hour-glass-sleeveless.jpeg",
+    "description": "A considered Timeless Piece design, created for effortless everyday style."
+  },
+  {
+    "id": "product-002",
+    "name": "Black Timeless Piece Sleeveless",
+    "color": "",
+    "price": 25000,
+    "sizes": [
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "category": "Men's Sleeveless",
+    "image": "assets/black-timeless-piece-sleeveless.jpeg",
     "description": "A considered Timeless Piece design, created for effortless everyday style."
   },
   {
@@ -77,6 +77,21 @@
     "description": "A considered Timeless Piece design, created for effortless everyday style."
   },
   {
+    "id": "product-013",
+    "name": "Timeless Heritage Polo",
+    "color": "",
+    "price": 30000,
+    "sizes": [
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "category": "Men's Polos",
+    "image": "assets/timeless-heritage-polo.jpeg",
+    "description": "A considered Timeless Piece design, created for effortless everyday style."
+  },
+  {
     "id": "product-014",
     "name": "Timeless Coffee Cup Polo",
     "color": "",
@@ -92,18 +107,20 @@
     "description": "A considered Timeless Piece design, created for effortless everyday style."
   },
   {
-    "id": "product-013",
-    "name": "Timeless Heritage Polo",
+    "id": "product-007",
+    "name": "Timeless Palazzo Dark Trouser",
     "color": "",
-    "price": 30000,
+    "price": 45000,
     "sizes": [
-      "L",
-      "XL",
-      "XXL",
-      "XXXL"
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
     ],
-    "category": "Men's Polos",
-    "image": "assets/timeless-heritage-polo.jpeg",
+    "category": "Men's Trousers",
+    "image": "assets/timeless-palazzo-dark-trouser.png",
     "description": "A considered Timeless Piece design, created for effortless everyday style."
   },
   {
@@ -141,23 +158,6 @@
     "description": "A considered Timeless Piece design, created for effortless everyday style."
   },
   {
-    "id": "product-007",
-    "name": "Timeless Palazzo Dark Trouser",
-    "color": "",
-    "price": 45000,
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
-    ],
-    "category": "Men's Trousers",
-    "image": "assets/timeless-palazzo-dark-trouser.png",
-    "description": "A considered Timeless Piece design, created for effortless everyday style."
-  },
-  {
     "id": "product-004",
     "name": "Black Timeless Zip Up Shirt",
     "color": "",
@@ -169,20 +169,6 @@
     ],
     "category": "Men's Shirts",
     "image": "assets/black-timeless-zip-up-shirt.jpeg",
-    "description": "A considered Timeless Piece design, created for effortless everyday style."
-  },
-  {
-    "id": "product-006",
-    "name": "Timeless Camo Shirt",
-    "color": "",
-    "price": 35000,
-    "sizes": [
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "category": "Men's Shirts",
-    "image": "assets/timeless-camo-shirt.jpeg",
     "description": "A considered Timeless Piece design, created for effortless everyday style."
   },
   {
@@ -201,18 +187,17 @@
     "description": "A considered Timeless Piece design, created for effortless everyday style."
   },
   {
-    "id": "product-011",
-    "name": "Timeless Onyx Set",
+    "id": "product-006",
+    "name": "Timeless Camo Shirt",
     "color": "",
-    "price": 75000,
+    "price": 35000,
     "sizes": [
       "L",
       "XL",
-      "XXL",
-      "XXXL"
+      "XXL"
     ],
-    "category": "Men's Two-Piece Sets",
-    "image": "assets/timeless-onyx-set.jpeg",
+    "category": "Men's Shirts",
+    "image": "assets/timeless-camo-shirt.jpeg",
     "description": "A considered Timeless Piece design, created for effortless everyday style."
   },
   {
@@ -228,6 +213,21 @@
     ],
     "category": "Men's Two-Piece Sets",
     "image": "assets/timeless-piece-track-set.jpeg",
+    "description": "A considered Timeless Piece design, created for effortless everyday style."
+  },
+  {
+    "id": "product-011",
+    "name": "Timeless Onyx Set",
+    "color": "",
+    "price": 75000,
+    "sizes": [
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "category": "Men's Two-Piece Sets",
+    "image": "assets/timeless-onyx-set.jpeg",
     "description": "A considered Timeless Piece design, created for effortless everyday style."
   },
   {
